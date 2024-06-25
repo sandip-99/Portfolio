@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (max-width:1200px) {
+    .right-section img {
+        margin-top: 50px;
+        width: 85%;
+    }
+
+    .intro-section .left-section h2 {
+        font-size: 46px;
+        line-height: 68px;
+    }
+
+    .gallery {
+        /* margin-top: -20px; */
+        margin-bottom: -10px;
+    }
+    /* .footer-area h1{
+        margin-bottom: 20px;
+    } */
+
+}
+
+@media (max-width:992px) {
+    .intro-section {
+        margin-top: 85px;
+        text-align: center;
+        margin-bottom: -85px;
+    }
+
+    .heading h1 {
+        text-align: center;
+        font-size: 42px;
+    }
+
+    .intro-section .left-section h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .buttons .btn {
+        border: 1px solid black;
+        margin: 15px 7px;
+        /* margin-top: 30px; */
+        padding: 12px 13px;
+        font-weight: 500;
+        color: #453c3c;
+
+    }
+
+    .buttons {
+        margin-bottom: 10px;
+    }
+
+    .right-section img {
+        margin-top: 25px;
+    }
+
+    .gallery {
+        margin-top: -50px;
+        margin-bottom: -70px;
+    }
+
+    .about-area .vvv {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .intro-img {
+        width: 80%;
+        text-align: center;
+    }
+
+    .about-area {
+        margin-bottom: -15px;
+    }
+    .skills-feature {
+        margin-top: -29px;
+        margin-bottom: -30px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .intro-section {
+        margin-top: 60px;
+        text-align: center;
+        margin-bottom: -80px;
+
+    }
+
+    .right-section img {
+        width: 80%;
+    }
+
+}
+
+
+@media (max-width:576px) {
+    .right-section img {
+        margin-top: 40px;
+        vertical-align: middle;
+        margin-bottom: -14px;
+    }
+
+    .heading h1 {
+        text-align: center;
+        font-size: 31px;
+    }
+
+    .right-section img {
+        margin-top: 40px;
+        vertical-align: middle;
+    }
+
+    .buttons .btn {
+        border: 1px solid black;
+        margin: 10px 4px;
+        /* margin-top: 30px; */
+        padding: 12px 13px;
+        font-weight: 500;
+        color: #453c3c;
+    }
+
+    .about-text h2 {
+        font-size: 30px;
+    }
+
+}
